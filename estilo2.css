@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/*CSS documento */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+body{
+	background-color:#565454;
+	width: 100%;
+	height: 100%;
+
+}
+
+.caixa{
+	width: 1000px;
+	height: 750px;
+	display: table;
+	position: relative;
+	min-height: 100%;
+	
+}
+
+.topo{
+	border: solid 2px #000;
+	text-decoration: none;
+	margin-top: 20px;
+	text-decoration: underline;
+	background-color: black;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 1580px;
+	height: 30px;
+	text-align: center;
+	font-style:oblique;
+
+
+}
+
+.imageen{
+	border: solid 2px;
+	margin:10px 10px 10px 5px; 
+	width: 250px;
+	height: 250px;
+	background-image:url(quemsoueu.jpg);
+	border-radius: 50%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-top: -300px; 
+	margin-left: -190px; 
+	
+
+}
+.imagin{border-radius: 20%;}
+
+.menu-item{ float: left;
+			list-style: none;
+			text-align:center;
+			 
+			
+
+}
+
+.menu-link{ text-decoration: none;
+			padding:4px;
+			display: block;
+			color: white;
+}
+a:hover{
+			color: blue;
+
+}
+
+
+
+}			
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+ul li{
+	display: inline;
+	margin: auto;
+	padding: 0 15px;
+
+}
+
+ul{
+	
+	display: inline-block;
+}
+
+.texto{
+	border: solid 2px;
+	float: right;
+	margin: 10px 5px 10px 5px;
+	width: 1580px;
+	height: 550px;
+	padding-bottom: 10px;
+
+
+}
+
+h1{
+	text-align: center;
+	font-style: italic;
+	color: white;
+	font-size: 60PX;
+
+}
+
+h2{
+	font-style: oblique;
+	color: white;
+	font-size: 45px;
+	margin: 10px;
+	display: block;
+}
+
+h3{
+	font-style: oblique;
+	color: white;
+	font-size: 30px;
+	margin:10px;
+	text-align: right;
+}
+
+h4{
+	font-style: oblique;
+	color: white;
+	font-size: 20px;
+	margin:10px;
+	text-align: center;
+	padding-top: 100px;
+
+}
+
+.footer{ 
+	border: solid 2px; 
+   	position:absolute;  
+   	bottom:0px;  
+   	width: 1580px;  
+   	height:130px;
+   	margin:20px 5px 5px 5px;  
+   	  
+}
+
